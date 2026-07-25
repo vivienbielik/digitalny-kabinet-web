@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digitálny Kabinet — vzdelávanie učiteľov v AI, IT nástrojoch a CLIL/PBL</title>
+<meta name="description" content="Občianske združenie Digitálny Kabinet poskytuje webináre a vzdelávanie pre učiteľov v oblasti AI, digitálnych nástrojov, CLIL a PBL metodológie.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HLAVIČKA — navigácia. Ak pridáš/zmeníš sekciu, uprav aj
+     zoznam odkazov nižšie (href musí sedieť s id danej sekcie).
+     ========================================================= -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="#hero" class="brand">
+      <img src="assets/logo-icon.png" alt="Digitálny Kabinet logo">
+      Digitálny Kabinet
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Otvoriť menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#onas">O nás</a></li>
+      <li><a href="#pripravujeme">Pripravujeme</a></li>
+      <li><a href="#temy">Témy, ktorým sa venujeme</a></li>
+      <li><a href="#materialy">Materiály zadarmo</a></li>
+      <li><a href="#kontakt" class="nav-cta">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- =========================================================
+     HERO — úvodná sekcia. EDITUJ: nadpis, podnadpis, tlačidlá.
+     ========================================================= -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Občianske združenie</p>
+      <h1>Otvárame učiteľom <span>dvere</span> do digitálneho vzdelávania.</h1>
+      <p class="lead">Webináre a vzdelávanie zamerané na efektívne využitie umelej inteligencie a IT nástrojov v praxi, ako aj na metódy CLIL a PBL — pre učiteľov predprimárneho, primárneho aj sekundárneho vzdelávania.</p>
+      <div class="hero-actions">
+        <a href="#temy" class="btn btn-primary">Pozrieť témy</a>
+        <a href="#kontakt" class="btn btn-outline">Kontaktovať nás</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="pixel-dots" aria-hidden="true">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+      </div>
+      <img src="assets/logo.png" alt="Digitálny Kabinet — logo dverí otvárajúcich sa do digitálneho sveta">
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     O NÁS
+     EDITUJ: text poslania a mená/role/fotky tímu.
+     Fotku vymeníš tak, že nahradíš súbor v assets/photos/
+     rovnakým názvom (napr. eva-krekovicova.jpg).
+     ========================================================= -->
+<section id="onas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">O nás</p>
+      <h2>Kto sme</h2>
+    </div>
+
+    <div class="mission-card reveal">
+      <p>
+        Sme <strong>občianske združenie Digitálny Kabinet</strong>. Poskytujeme webináre
+        a vzdelávanie pre učiteľov v oblasti efektívneho využitia <strong>umelej inteligencie
+        a IT nástrojov v praxi</strong>, ako aj metód <strong>CLIL</strong> (Content and Language
+        Integrated Learning) a <strong>PBL</strong> (Project Based Learning — projektové
+        vyučovanie). Naše vzdelávanie je určené pedagógom všetkých stupňov —
+        od predprimárneho, cez primárne až po sekundárne vzdelávanie.
+      </p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="photo"><img src="assets/photos/eva-krekovicova.jpg" alt="Mgr. Eva Krekovičová"></div>
+        <h3>Mgr. Eva Krekovičová</h3>
+        <p class="role">Ekonómka</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="photo"><img src="assets/photos/tatiana-bielikova.jpg" alt="MSc. Tatiana Bieliková"></div>
+        <h3>MSc. Tatiana Bieliková</h3>
+        <p class="role">Marketing manažérka</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="photo"><img src="assets/photos/viviana-bielikova.jpg" alt="PaedDr. Viviána Bieliková"></div>
+        <h3>PaedDr. Viviána Bieliková</h3>
+        <p class="role">Lektorka</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PRIPRAVUJEME
+     EDITUJ: pridaj/uber <div class="upcoming-card"> podľa potreby.
+     Skopíruj celý blok jednej karty a uprav text.
+     ========================================================= -->
+<section id="pripravujeme" class="section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Pripravujeme</p>
+      <h2>Čo sa u nás čoskoro chystá</h2>
+      <p>Pracujeme na nových webinároch a vzdelávacích programoch. Sledujte nás, čoskoro pridáme podrobnosti a termíny.</p>
+    </div>
+
+    <div class="upcoming-grid">
+      <div class="upcoming-card reveal">
+        <span class="badge">Čoskoro</span>
+        <h3>Webinár: AI v každodennej príprave učiteľa</h3>
+        <p>Praktické ukážky, ako môže umelá inteligencia ušetriť čas pri príprave hodín a materiálov.</p>
+      </div>
+      <div class="upcoming-card reveal">
+        <span class="badge">Čoskoro</span>
+        <h3>Akreditovaný kurz CLIL a PBL v praxi</h3>
+        <p>Ucelený vzdelávací program pre učiteľov, ktorí chcú prepojiť obsah, jazyk a projektové vyučovanie.</p>
+      </div>
+      <div class="upcoming-card reveal">
+        <span class="badge">Čoskoro</span>
+        <h3>Digitálne nástroje pre materské a základné školy</h3>
+        <p>Prehľad jednoduchých a bezpečných digitálnych nástrojov vhodných aj pre najmladších žiakov.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TÉMY, KTORÝM SA VENUJEME
+     EDITUJ: pridaj/uber <div class="topic-card"> podľa potreby.
+     ========================================================= -->
+<section id="temy">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Témy, ktorým sa venujeme</p>
+      <h2>Naše hlavné oblasti</h2>
+    </div>
+
+    <div class="topics-grid">
+      <div class="topic-card reveal">
+        <div class="topic-icon" style="background:var(--teal-pale); color:var(--teal-dark);">🤖</div>
+        <h3>Umelá inteligencia vo vyučovaní</h3>
+        <p>Ako využiť nástroje AI pri príprave hodín, tvorbe materiálov a hodnotení žiakov — bezpečne a efektívne.</p>
+      </div>
+      <div class="topic-card reveal">
+        <div class="topic-icon" style="background:#FBE7DE; color:var(--terracotta-dark);">🌍</div>
+        <h3>CLIL metodológia</h3>
+        <p>Prepájanie obsahu predmetu a cudzieho jazyka — metodika, ukážkové hodiny a hodnotiace nástroje.</p>
+      </div>
+      <div class="topic-card reveal">
+        <div class="topic-icon" style="background:#FBEFD8; color:#8A5B0E;">🧩</div>
+        <h3>PBL — projektové vyučovanie</h3>
+        <p>Ako viesť žiakov k samostatnej práci na reálnych projektoch naprieč predmetmi a stupňami vzdelávania.</p>
+      </div>
+      <div class="topic-card reveal">
+        <div class="topic-icon" style="background:var(--teal-pale); color:var(--teal-dark);">💻</div>
+        <h3>Digitálne nástroje v praxi</h3>
+        <p>Praktické tipy na aplikácie a platformy, ktoré uľahčujú prácu učiteľa a robia hodiny atraktívnejšími.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     MATERIÁLY ZADARMO
+     EDITUJ: sem pridávaš odkazy na súbory. Súbor (napr. PDF)
+     nahraj do priečinka assets/materialy/ a do href napíš jeho
+     presný názov, napr. assets/materialy/nazov-suboru.pdf
+     ========================================================= -->
+<section id="materialy" class="section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Materiály zadarmo</p>
+      <h2>Stiahnite si zdarma</h2>
+      <p>Vybrané materiály pre učiteľov na voľné použitie. Postupne budeme pridávať ďalšie.</p>
+    </div>
+
+    <div class="materials-list">
+      <div class="material-item reveal">
+        <div class="info">
+          <div class="file-icon">PDF</div>
+          <div>
+            <h4>Úvod do AI nástrojov pre učiteľov</h4>
+            <span class="meta">Pripravujeme na stiahnutie</span>
+          </div>
+        </div>
+        <a href="#" class="btn btn-outline">Stiahnuť</a>
+      </div>
+      <div class="material-item reveal">
+        <div class="info">
+          <div class="file-icon">PDF</div>
+          <div>
+            <h4>Šablóna CLIL hodiny</h4>
+            <span class="meta">Pripravujeme na stiahnutie</span>
+          </div>
+        </div>
+        <a href="#" class="btn btn-outline">Stiahnuť</a>
+      </div>
+      <div class="material-item reveal">
+        <div class="info">
+          <div class="file-icon">PDF</div>
+          <div>
+            <h4>Checklist: prvý PBL projekt v triede</h4>
+            <span class="meta">Pripravujeme na stiahnutie</span>
+          </div>
+        </div>
+        <a href="#" class="btn btn-outline">Stiahnuť</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     KONTAKT
+     EDITUJ: e-mail, telefón, adresu a sociálne siete.
+     ========================================================= -->
+<section id="kontakt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Kontakt</p>
+      <h2>Ozvite sa nám</h2>
+    </div>
+
+    <div class="contact-wrap">
+      <ul class="contact-list reveal">
+        <li>
+          <span class="ic">✉️</span>
+          <div>
+            <strong>E-mail</strong><br>
+            <a href="mailto:info@digitalnykabinet.sk">info@digitalnykabinet.sk</a>
+          </div>
+        </li>
+        <li>
+          <span class="ic">📍</span>
+          <div>
+            <strong>Sídlo</strong><br>
+            Levice, Slovensko
+          </div>
+        </li>
+        <li>
+          <span class="ic">🌐</span>
+          <div>
+            <strong>Web</strong><br>
+            www.digitalnykabinet.sk
+          </div>
+        </li>
+      </ul>
+
+      <div class="contact-card reveal">
+        <h3>Máte otázku alebo nápad na spoluprácu?</h3>
+        <p>Napíšte nám na e-mail a ozveme sa vám čo najskôr.</p>
+        <a href="mailto:info@digitalnykabinet.sk" class="btn btn-primary">Napísať e-mail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PÄTIČKA
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <span>© <span id="year"></span> Digitálny Kabinet, o.z.</span>
+    <span><a href="mailto:info@digitalnykabinet.sk">info@digitalnykabinet.sk</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
